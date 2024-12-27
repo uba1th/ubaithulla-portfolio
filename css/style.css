@@ -1,0 +1,205 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* font */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* font end */
+
+
+:root{
+    /* bg colors */
+    --primary-bg-body: #0F103F; 
+
+    /* colors */
+    --primary-text-color: #f8f8f8;
+    --secondary-yellow: #F3FF0B;
+    --card-bg-color: rgba(251,249,249, 0.10);
+    --purple:  #2933C3 ;
+    --form-bg-color: rgba(255,255,255, 0.15);
+    --bs-body-color: #fefeff !important;
+
+
+    /* font size */
+
+    --fs-64: 64px;
+    --fs-48: 48px;
+    --fs-40: 40px;
+    --fs-36: 36px;
+    --fs-32: 32px;
+    --fs-24: 24px;
+    --fs-20: 20px;
+    --fs-16: 16px;
+    --fs-14: 14px;
+    --fs-12: 12px;
+
+    /* font-weight */
+
+    --fwt-bold: 700;
+    --fwt-semibold: 500;
+    --fwt-medium: 400;
+    --fwt-regular: 300;
+
+    /* button color */
+
+    --btn-purple: #2933C3 ;
+    --btn-pink: #A72EBF  ;
+
+}
+
+/* root var */
+
+.primary-bg-body{
+    background-color: var(--primary-bg-body);
+}
+
+.primary-text-color{
+    color: var(--primary-text-color) !important;
+}
+
+.secondary-yellow{
+    color: var(--secondary-yellow) !important;
+}
+
+.card-bg-color{
+    background-color: var(--card-bg-color);
+}
+
+.purple{
+    background-color: #2933C3;
+}
+
+.fs-64{ font-size: var(--fs-64) !important;}
+.fs-48{ font-size: var(--fs-48) !important;}
+.fs-40{ font-size: var(--fs-40) !important;}
+.fs-36{ font-size: var(--fs-36) !important;}
+.fs-32{ font-size: var(--fs-32) !important;}
+.fs-24{ font-size: var(--fs-24) !important;}
+.fs-20{ font-size: var(--fs-20) !important;}
+.fs-16{ font-size: var(--fs-16) !important;}
+.fs-14{ font-size: var(--fs-14) !important;}
+.fs-12{ font-size: var(--fs-12) !important;}
+
+.fwt-bold{font-weight: var(--fwt-bold) !important;}
+.fwt-semibold{font-weight: var(--fwt-semibold) !important;}
+.fwt-medium{font-weight: var(--fwt-medium) !important;}
+.fwt-regular{font-weight: var(--fwt-regular) !important;}
+
+
+.btn-purple{background-color: #2933C3 !important; color: #f8f8f8 !important; }
+.btn-pink{background-color: #A72EBF !important; color: #f8f8f8 !important; }
+
+/* root var end */ 
+
+
+
+/* nav start */
+
+
+nav{
+    background-color: var(--primary-bg-body) !important;
+}
+
+.navbar-toggler{
+    --bs-navbar-toggler-icon-bg:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>');
+
+}
+
+
+
+
+
+/* nav end */
+
+
+/* footer start */
+
+#footer-section{
+    width: 100%;
+    height: auto;
+    background-color: #020421;
+}
+
+
+/* footer end */
+
+
+@media only screen and (max-width:992px){
+
+
+    :root{
+
+   
+        /* font size */
+    
+        --fs-64: 64px;
+        --fs-48: 40px;
+        --fs-40: 40px;
+        --fs-36: 36px;
+        --fs-32: 32px;
+        --fs-24: 20px;
+        --fs-20: 20px;
+        --fs-16: 16px;
+        --fs-14: 14px;
+        --fs-12: 12px;
+}
+
+}
+
+
+@media only screen and (max-width:769px){
+
+
+    :root{
+
+   
+        /* font size */
+    
+        --fs-64: 64px;
+        --fs-48: 32px;
+        --fs-40: 40px;
+        --fs-36: 36px;
+        --fs-32: 32px;
+        --fs-24: 20px;
+        --fs-20: 20px;
+        --fs-16: 16px;
+        --fs-14: 14px;
+        --fs-12: 12px;
+}
+
+}
+
+
+@media only screen and (max-width:575px){
+
+
+    :root{
+
+   
+        /* font size */
+    
+        --fs-64: 64px;
+        --fs-48: 24px;
+        --fs-40: 40px;
+        --fs-36: 36px;
+        --fs-32: 32px;
+        --fs-24: 20px;
+        --fs-20: 20px;
+        --fs-16: 16px;
+        --fs-14: 14px;
+        --fs-12: 12px;
+}
+
+.navbar .container a .fs-24{
+    font-size: 16px !important;
+}
+
+}
+
